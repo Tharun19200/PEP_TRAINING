@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Glowing Text
+        </title>
+        <style>
+            body {
+                background-color: black;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .gloweffect {
+                font-size:130px;
+                color: black;
+                text-align:center;
+                animation: glow 1s infinite alternate;
+                margin-top:18%;
+                margin-bottom:18%;
+            }
+            @-webkit-keyframes glow {
+        to {
+    text-shadow:0 0 10px black, 0 0 20px rgb(218, 15, 15),0 0 30px red, 0 0 40px red, 0 0 50px red;
+  }
+}
+        </style>
+        <body>
+            <h1 class="gloweffect">SPIDER MAN</h3>
+        </body>
+    </head>
+</html>
