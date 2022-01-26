@@ -1,0 +1,35 @@
+.Changes {
+    font-family:Gilroy-Bold;
+    color:#4b4f60;
+    text-align: center;
+}
+.img-area1{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.img-area2{
+    display: flex;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.text{
+
+    font-family: Gilroy-Bold;
+    line-height: 140%;
+    color: #575c70;
+    text-align: right;
+    font-weight: bold;
+}
