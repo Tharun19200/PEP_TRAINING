@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Form
+        </title>
+    </head>
+    <style>
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: rgb(19, 18, 18);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #75c979;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #0bddec;
+  padding: 20px;
+}
+    </style>
+    <body style="background-color:rgb(33, 221, 180);">
+        <ins><h2 style="text-align:center">Student Form</h2></ins>
+        
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="last name">
+
+    <label for="Mobile Number">Mobile Number</label>
+    <input type="text" id="Mobile Number" name="Mobile Number">
+
+    <label for="Working Professional">Working Professional</label>
+    <input type="text" id="Working Professional" name="Working Professional">
+
+    <label for="Year of passing">Year of Passing</label>
+    <select id="Year of passing" name="Year of passing">
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    </body>
+</html>
